@@ -18,8 +18,8 @@ export class HeroeTarjetaComponent implements OnInit {
   }
 
   verHeroe(indice:number){
-    // this.router.navigate(['/heroe',this.i]);
-    this.hereoSeleccionado.emit(this.i);
+    this.router.navigate(['/heroe',this.i]);
+    // this.hereoSeleccionado.emit(this.i);
   }
 
 }
