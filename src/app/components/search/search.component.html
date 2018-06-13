@@ -8,7 +8,7 @@
   </div>
 </div>
 <div class="card-columns">
-  <app-heroe-tarjeta [heroe]="heroe" [i]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-tarjeta>
+  <app-heroe-tarjeta [heroe]="heroe" [i]="heroe.idx" *ngFor="let heroe of heroes;"></app-heroe-tarjeta>
 </div>
 <!-- <div class="card-columns animated fadeIn fast">
   <div class="card animated fadeIn fast" *ngFor="let heroe of heroes; let i = index">
